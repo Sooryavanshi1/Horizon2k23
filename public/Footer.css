@@ -1,0 +1,31 @@
+.foot{
+    display: flex;
+   text-align: center;
+   justify-content: center;
+   
+}
+.parent{
+    text-align: center;
+    background-color: white;
+    margin:10px 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.9);
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.rights{
+    color:rgb(184,179,179);
+    height:10px;
+}
+.rights >h4 > a{
+    color: white;
+}
+@media (min-width:200px) and (max-width:500px){
+    .parent{
+        display: inline-block;
+    }
+    .rights{
+        width: 95vh;
+        position: relative;
+        left: 17vh;
+    }
+}

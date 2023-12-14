@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Banner from './Components/Banner';
+import EventCard from './Components/EventCard';
+import Form from './Components/Form';
+import Names from './Components/Names';
+import Footer from './Components/Footer';
+import Core from './Components/corecomm';
+import Form1 from './Components/Form1';
+import Neft from './Components/neft';
+import Timer from './Components/daycount'
+import Hitcounter from './Components/hitcounter'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+      <Banner/>
+      {/* <Core/> */}
+      <EventCard/>
+      {/* <Form1/> */}
+      {/* <Neft/> */}
+      <Form/>
+      <Names/>
+      {/* <Hitcounter/> */}
+      
+      <Footer/>
+      </>
   );
 }
 

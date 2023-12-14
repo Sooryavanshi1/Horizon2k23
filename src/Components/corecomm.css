@@ -1,0 +1,17 @@
+.comm-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comm-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

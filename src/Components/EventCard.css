@@ -1,0 +1,18 @@
+.Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:500px) and (min-width:200px){
+    .main_card{
+
+justify-content: center;
+align-items: center;
+
+      
+         position: relative;
+        left: 15vh;
+        width: 99vh; 
+    }
+}
